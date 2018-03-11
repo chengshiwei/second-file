@@ -1,0 +1,79 @@
+* {
+	margin:0;
+	padding:0;
+}
+.type{
+	width: 80%;
+	margin: 0 auto;
+}
+body {
+	font-family: "Microfa YaHei",sans-serif;
+}
+.imgs {
+	width: 100%;
+	text-align: center;
+}
+.imgs{
+	margin-top: 30px;
+	margin-bottom: 80px;
+}
+.nav>h1{
+    font-size: 18px;
+    color: rgb(87,87,87);
+    margin-bottom: 20px;
+}
+.nav>p{
+	color: rgb(27,27,27);
+	margin-bottom: 20px;
+}
+.showdiv{
+color: rgb(27,27,27);
+	margin-bottom: 20px;
+	font-size: 18px;
+
+}
+.nav1{
+	text-align: center;
+}
+.nav2{
+	text-align: center;
+}
+.nav1 a{
+	text-decoration: none;
+	color: rgb(141,141,141);
+
+}
+.nav2 a{
+	text-decoration: none;
+	color: rgb(141,141,141);
+}
+.banner{
+	margin-bottom: 15px;
+}
+.banner>p{
+	margin-bottom: 15px;
+}
+.banner>p>a{
+	color: rgb(237,128,79);
+	font-size: 24px;
+	text-decoration: none;
+}
+button{
+	background-color: rgb(238,128,79);
+	width: 100%;
+	text-align: center;
+	display: block;
+	margin-top: 30PX;
+	height: 100px;
+	border-radius:30px;
+	font-size: 40px;
+	color: rgb(242,244,244);
+}
+.but1>p{
+	font-size: 22px;
+	color: rgb(255,2,5);
+}
+.foot{
+	display: inline-block;
+	text-align: center;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<div class="type">
+	<header>
+		<div class="imgs">
+		<img src="logo_1.png" alt="">
+	   </div>
+	</header>
+	<div class="nav">
+		<h1>eSIM一号双终端业务介绍</h1>
+		<p>
+			1.中国联通ESIM一号双终端试验业务是指用户可在自己的手机号码（主号码） ,使手机终端与附属终端公用一个手机号码（主号码） ，给主号码来电时两个终端共振, 任意终端均可拨出电话, 主附终端之间不能拨打电话。
+		</p>
+		<div id="showdiv" style="display: none">
+			<p>
+			2.目前试点地区仅包括上海、天津、广州、深圳、长沙、郑州、武汉7城市。该实验业务可适用于苹果Apple Watch S3新品。业务试验期为1年（自2018年3月7日至2019年3月6日）,期间联通公司可能因监督、网络或业务化等原因,停止该试验业务的服务。
+		</p>
+		<br>
+		<p>
+			3.2018年年底前办理本业务的用户可享受13个月（含办理当月）业务月功能费和开通费。免费期过后如用户继续使用，联通公司将正常向用户收取月功能费。
+		</p>
+		</div>
+		
+	</div>
+	<div class="nav1"><a href="#" id="more" onclick="showHideCode()">展开更多&nbsp;></a></div>
+	<div class="nav2"><a href="#" id="less" onclick="aa()" style="display: none">收起&nbsp;<</a></div>
+	<div class="banner">
+		<p><a href="#">业务须知</a></p>
+		<p><a href="#">eSIM一号双终端线上开户流程</a></p>
+		<p><a href="#">eSIM一号双终端线上管理手册</a></p>
+	</div>
+	<hr>
+	<div class="but1">
+		<button>已有联通号码-点击资格校验</button>
+	<p>*请使用联通自由业务号段（130、131、132、155、156、185、186、175、176、166、145）进行校验。</p>
+	</div>
+	<div class="but2">
+		<button>免费申请联通号码</button>
+	</div>
+	<footer>
+		<div class="foot"><p>如果您需要了解联通其他业务</p>
+		 <p>请点击图片联通手机营业厅APP</p></div>
+	</footer>
+	</div>
+	<script src="jquery-1.12.4.min.js"></script>
+	<script>
+		function showHideCode(){
+             $("#showdiv").show();
+             $("#more").hide();
+             $("#less").show();
+          };
+        function aa(){
+             $("#showdiv").hide();
+             $("#less").hide();
+			 $("#more").show();
+          };
+
+	</script>
+</body>
+</html>
